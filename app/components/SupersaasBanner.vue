@@ -12,7 +12,7 @@
           src="https://supersaas.dev/logo.png"
           alt="Supersaas Logo"
           size="xs"
-          class="h-6 w-auto ml-1"
+          class="ml-1 h-6 w-auto"
         />
         <p class="text-sm font-bold text-white">Get Supersaas pro</p>
         <UIcon

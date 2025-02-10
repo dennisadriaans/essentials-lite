@@ -1,6 +1,8 @@
 <template>
   <div class="flex-1">
-    <header class="flex h-14 items-center justify-between gap-3 p-4 border-b border-zinc-200 dark:border-white/10 min-w-0">
+    <header
+      class="flex h-14 min-w-0 items-center justify-between gap-3 border-b border-zinc-200 p-4 dark:border-white/10"
+    >
       <UButton
         icon="i-lucide-menu"
         variant="ghost"
@@ -8,7 +10,7 @@
         class="md:hidden"
         @click="toggleMobileMenu"
       />
-      <p class="text-sm truncate">{{ title }}</p>
+      <p class="truncate text-sm">{{ title }}</p>
       <span class="flex-1" />
       <slot name="actions" />
     </header>

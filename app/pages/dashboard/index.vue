@@ -1,7 +1,6 @@
 <template>
   <DashboardPage :title="`${greeting}, ${user?.name}`">
-    <div class="p-4">
-    </div>
+    <div class="p-4"></div>
   </DashboardPage>
 </template>
 

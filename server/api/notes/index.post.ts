@@ -1,4 +1,3 @@
-
 import { createNote } from '@@/server/database/actions/notes'
 import { z } from 'zod'
 

@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <div
-      class="relative flex h-64 items-center justify-center bg-zinc-50 bg-cover bg-center dark:bg-white/10 group"
+      class="group relative flex h-64 items-center justify-center bg-zinc-50 bg-cover bg-center dark:bg-white/10"
       :style="{ backgroundImage: `url(${modelValue})` }"
     >
       <UModal>

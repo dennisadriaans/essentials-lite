@@ -4,7 +4,6 @@ A minimal fullstack starter template deployed on the Edge using [NuxtHub](https:
 
 Demo - [https://supersaas-lite.nuxt.dev/](https://supersaas-lite.nuxt.dev/?ref=github-readme-supersaas-lite)
 
-
 ## Features
 
 - Google, Github & Discord login
@@ -14,7 +13,7 @@ Demo - [https://supersaas-lite.nuxt.dev/](https://supersaas-lite.nuxt.dev/?ref=g
 - User Settings
 - Simple Note app use case
 
-Supersaas lite is a part of [Supersaas Pro](https://supersaas.dev?ref=supersaas-lite-github-readme) - The fullstack Nuxt 3 template that comes with 
+Supersaas lite is a part of [Supersaas Pro](https://supersaas.dev?ref=supersaas-lite-github-readme) - The fullstack Nuxt 3 template that comes with
 
 - Auth - Email/Password, Magic Link, One time passwords, Passkeys, Social Auth
 - DB - Turso, NuxtHub or Postgres
@@ -61,7 +60,6 @@ pnpm build
 
 ## Deploy
 
-
 Deploy the application on the Edge with [NuxtHub](https://hub.nuxt.com) on your Cloudflare account:
 
 ```bash
@@ -71,4 +69,3 @@ npx nuxthub deploy
 Then checkout your server logs, analaytics and more in the [NuxtHub Admin](https://admin.hub.nuxt.com).
 
 You can also deploy using [Cloudflare Pages CI](https://hub.nuxt.com/docs/getting-started/deploy#cloudflare-pages-ci).
-

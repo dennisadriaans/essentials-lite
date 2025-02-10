@@ -1,5 +1,12 @@
 export default defineNuxtConfig({
-  modules: ['@nuxthub/core', '@nuxt/ui', '@vueuse/nuxt', 'nuxt-auth-utils', 'nuxt-emoji-picker'],
+  modules: [
+    '@nuxthub/core',
+    '@nuxt/ui',
+    '@vueuse/nuxt',
+    'nuxt-auth-utils',
+    'nuxt-emoji-picker',
+    '@nuxt/content',
+  ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
